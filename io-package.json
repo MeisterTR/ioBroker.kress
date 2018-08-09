@@ -1,9 +1,9 @@
 {
   "common": {
     "name": "kress",
-    "version": "2.5.1",
+    "version": "2.5.3",
     "news": {
-      "2.5.1": {
+      "2.5.3": {
         "en": "Initinal relase",
         "de": "Erste Version"
       }

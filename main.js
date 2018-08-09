@@ -2,7 +2,9 @@
 /*jslint node: true */
 "use strict";
 
-// you have to require the utils module and call adapter function
+// main version 2.5.0 (09.08.2018)
+//-------------------------------------------------------
+
 var utils = require(__dirname + '/lib/utils'); // Get common adapter utils
 var adapter = utils.Adapter('kress');
 var mqttCloud = require(__dirname + '/lib/mqttCloud');
@@ -62,6 +64,9 @@ adapter.on('stateChange', function (id, state) {
         }
         else if (command === "startSequence") {
             startSequences(id, state.val);
+        }
+        else if (command === "pause") {
+            sendPause(id, state.val);
         }
         else if (command === "mowTimeExtend") {
             mowTimeEx(id, parseInt(state.val));
@@ -163,6 +168,12 @@ function changeMowerArea(id, value) {
         adapter.log.error("Error while setting mowers areas: " + e);
     }
 }
+function sendPause(id, value) {
+    if (value === true) {
+        mower.sendMessage('{"cmd":2}');
+    }
+}
+
 function startSequences(id, value) {
     var val = value;
     var message = data.cfg.mz; // set aktual values
@@ -192,7 +203,7 @@ function startSequences(id, value) {
 }
 
 function startMower() {
-    if (state === 1 && error == 0) {
+    if ((state === 1 || state === 34)&& error == 0) {
         mower.sendMessage('{"cmd":1}'); //start code for mower
         adapter.log.info("Start mower");
     } else {
@@ -245,6 +256,18 @@ function procedeMower() {
             native: {}
         });
     }
+    adapter.setObjectNotExists('mower.pause', {
+        type: 'state',
+        common: {
+            name: "Pause",
+            type: "boolean",
+            role: "button",
+            read: true,
+            write: true,
+            desc: "Pause the mover",
+        },
+        native: {}
+    });
 
     adapter.setObjectNotExists('mower.totalTime', {
         type: 'state',
@@ -386,7 +409,8 @@ function procedeMower() {
                 9: "Trapped",
                 10: "Blade blocked", // Not sure what this is
                 11: "Debug",
-                12: "Remote control"
+                12: "Remote control",
+                34: "Pause"
             }
         },
         native: {}
