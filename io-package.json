@@ -107,12 +107,12 @@
             "_id": "mower.batteryState",
             "type": "state",
             "common": {
-                "name": "Landroid battery state",
+                "name": "mower battery state",
                 "type": "number",
                 "role": "value.battery",
                 "unit": "%",
                 "read": true,
-                "desc": "Landroid mower battery state in %"
+                "desc": "mower battery state in %"
             },
             "native": {}
         },
@@ -155,7 +155,7 @@
                 "type": "string",
                 "role": "value.datetime",
                 "read": true,
-                "desc": "Hour:Minutes on the day (monday) that the Landroid should start mowing"
+                "desc": "Hour:Minutes on the day (monday) that the mower should start mowing"
             },
             "native": {}
         },
@@ -201,7 +201,7 @@
                 "type": "string",
                 "role": "value.datetime",
                 "read": true,
-                "desc": "Hour:Minutes on the day (tuesday) that the Landroid should start mowing"
+                "desc": "Hour:Minutes on the day (tuesday) that the mower should start mowing"
             },
             "native": {}
         },
@@ -247,7 +247,7 @@
                 "type": "string",
                 "role": "value.datetime",
                 "read": true,
-                "desc": "Hour:Minutes on the day (wednesday) that the Landroid should start mowing"
+                "desc": "Hour:Minutes on the day (wednesday) that the mower should start mowing"
             },
             "native": {}
         },
@@ -293,7 +293,7 @@
                 "type": "string",
                 "role": "value.datetime",
                 "read": true,
-                "desc": "Hour:Minutes on the day (thursday) that the Landroid should start mowing"
+                "desc": "Hour:Minutes on the day (thursday) that the mower should start mowing"
             },
             "native": {}
         },
@@ -339,7 +339,7 @@
                 "type": "string",
                 "role": "value.datetime",
                 "read": true,
-                "desc": "Hour:Minutes on the day (friday) that the Landroid should start mowing"
+                "desc": "Hour:Minutes on the day (friday) that the mower should start mowing"
             },
             "native": {}
         },
@@ -385,7 +385,7 @@
                 "type": "string",
                 "role": "value.datetime",
                 "read": true,
-                "desc": "Hour:Minutes on the day (saturday) that the Landroid should start mowing"
+                "desc": "Hour:Minutes on the day (saturday) that the mower should start mowing"
             },
             "native": {}
         },
@@ -431,7 +431,7 @@
                 "type": "string",
                 "role": "value.datetime",
                 "read": true,
-                "desc": "Hour:Minutes on the day (sunday) that the Landroid should start mowing"
+                "desc": "Hour:Minutes on the day (sunday) that the mower should start mowing"
             },
             "native": {}
         },
