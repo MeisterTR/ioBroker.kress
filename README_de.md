@@ -1,4 +1,5 @@
 [![Kress-Robotics](admin/kress-2.png)](https://www.kress-robotik.com/de/)
+
 Bild-Quelle: https://www.kress-robotik.com/de/
 
 ioBroker.kress
@@ -28,7 +29,7 @@ Es muss mindestens Node 4.X.X Installiert sein, Node 0.10 und 0.12 werden von di
 
 
 ## Changelog
-#### 2.5.1 (08.08.2018)
+#### 2.5.5 (08.08.2018)
 * (MeisterTR) initinal relase
 
  

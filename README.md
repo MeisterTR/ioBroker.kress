@@ -1,4 +1,5 @@
 [![Kress-Robotics](admin/kress-2.png)](https://www.kress-robotik.com/de/)
+
 Bild-Quelle: https://www.kress-robotik.com/de/
 
 ioBroker.kress
@@ -30,7 +31,7 @@ At least Node 4.X.X must be installed, Node 0.10 and 0.12 are no longer supporte
 -If two mowers are to be integrated, a second instance must be installed, one is selected in the Config mower 0 and in the second mower 1 and so on.
 
 ## Changelog
-#### 2.5.1 (17.07.2018)
+#### 2.5.5 (17.07.2018)
 * (MeisterTR) initinal relase
  
 ## License
