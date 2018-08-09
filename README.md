@@ -3,7 +3,7 @@ Bild-Quelle: https://www.kress-robotik.com/de/
 
 ioBroker.kress
 =============
-
+ 
 [![NPM version](http://img.shields.io/npm/v/iobroker.kress.svg)](https://www.npmjs.com/package/iobroker.kress)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.kress.svg)](https://www.npmjs.com/package/iobroker.kress)
 
