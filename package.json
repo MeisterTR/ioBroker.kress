@@ -1,0 +1,43 @@
+{
+  "name": "iobroker.kress",
+  "version": "2.5.1",
+  "description": "Control your Kress Mower",
+  "keywords": [
+    "ioBroker",
+    "Kress",
+    "Smart Home",
+    "home automation"
+  ],
+  "homepage": "https://github.com/MeisterTR/ioBroker.kress",
+  "bugs": {
+    "url": "https://github.com/MeisterTR/ioBroker.kress/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "MeisterTR",
+    "email": "meistertr.smarthome@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "MeisterTR",
+      "email": "meistertr.smarthome@gmail.com"
+    }
+  ],
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeisterTR/ioBroker.kress.git"
+  },
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --exit"
+  },
+  "dependencies": {
+    "mqtt": "^2.13.0",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "mocha": "^4.1.0",
+    "chai": "^4.1.2"
+  }
+}
