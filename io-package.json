@@ -150,7 +150,7 @@
       "type": "state",
       "common": {
         "name": "Start time",
-        "role": "value",
+        "role": "text",
         "type": "string",
         "read": true,
         "desc": "Hour:Minutes on the day (monday) that the mower should start mowing"
@@ -196,7 +196,7 @@
       "common": {
         "name": "Start time",
         "type": "string",
-        "role": "value",
+        "role": "text",
         "read": true,
         "desc": "Hour:Minutes on the day (tuesday) that the mower should start mowing"
       },
@@ -241,7 +241,7 @@
       "common": {
         "name": "Start time",
         "type": "string",
-        "role": "value",
+        "role": "text",
         "read": true,
         "desc": "Hour:Minutes on the day (wednesday) that the mower should start mowing"
       },
@@ -286,7 +286,7 @@
       "common": {
         "name": "Start time",
         "type": "string",
-        "role": "value",
+        "role": "text",
         "read": true,
         "desc": "Hour:Minutes on the day (thursday) that the mower should start mowing"
       },
@@ -331,7 +331,7 @@
       "common": {
         "name": "Start time",
         "type": "string",
-        "role": "value",
+        "role": "text",
         "read": true,
         "desc": "Hour:Minutes on the day (friday) that the mower should start mowing"
       },
@@ -376,7 +376,7 @@
       "common": {
         "name": "Start time",
         "type": "string",
-        "role": "value",
+        "role": "text",
         "read": true,
         "desc": "Hour:Minutes on the day (saturday) that the mower should start mowing"
       },
@@ -421,7 +421,7 @@
       "common": {
         "name": "Start time",
         "type": "string",
-        "role": "value",
+        "role": "text",
         "read": true,
         "desc": "Hour:Minutes on the day (sunday) that the mower should start mowing"
       },
