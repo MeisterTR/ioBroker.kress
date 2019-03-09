@@ -5,7 +5,7 @@
 // main version 2.5.0 (09.08.2018)
 //-------------------------------------------------------
 
-var utils = require(__dirname + '/lib/utils'); // Get common adapter utils
+var utils = require('@iobroker/adapter-core'); // Get common adapter utils
 var adapter = utils.Adapter('kress');
 var mqttCloud = require(__dirname + '/lib/mqttCloud');
 var ip, pin, data, getOptions, error, state;
