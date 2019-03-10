@@ -5,7 +5,7 @@ Bild-Quelle: https://www.kress-robotik.com/de/
 ioBroker.kress
 =============
  
-[![NPM version](http://img.shields.io/npm/v/iobroker.kress.svg)](https://www.npmjs.com/package/iobroker.kress)
+![Number of Installations](http://iobroker.live/badges/kress-installed.svg) ![Number of Installations](http://iobroker.live/badges/kress-stable.svg) [![NPM version](http://img.shields.io/npm/v/iobroker.kress.svg)](https://www.npmjs.com/package/iobroker.kress)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.kress.svg)](https://www.npmjs.com/package/iobroker.kress)
 
 [![NPM](https://nodei.co/npm/iobroker.kress.png?downloads=true)](https://nodei.co/npm/iobroker.kress/)
