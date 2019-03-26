@@ -1,11 +1,9 @@
-
----
-lastChanged: 2019.03.27
----
-[![Kress-Robotics](admin/kress-2.png)](https://www.kress-robotik.com/de/)
+![Kress-Robotics](admin/kress-2.png)
 # ioBroker.kress
  
-![Number of Installations](http://iobroker.live/badges/kress-installed.svg) ![Number of Installations](http://iobroker.live/badges/kress-stable.svg) [![NPM version](http://img.shields.io/npm/v/iobroker.kress.svg)](https://www.npmjs.com/package/iobroker.kress)
+![Number of Installations](http://iobroker.live/badges/kress-installed.svg) 
+![Number of Installations](http://iobroker.live/badges/kress-stable.svg) 
+[![NPM version](http://img.shields.io/npm/v/iobroker.kress.svg)](https://www.npmjs.com/package/iobroker.kress)
 [![NPM](https://nodei.co/npm/iobroker.kress.png?downloads=true)](https://nodei.co/npm/iobroker.kress/)
 [![Travis-CI](https://api.travis-ci.org/MeisterTR/ioBroker.kress.svg?branch=master)](https://travis-ci.org/MeisterTR/ioBroker.kress)
 [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/MeisterTR/ioBroker.kress?branch=master&svg=true)](https://ci.appveyor.com/project/MeisterTR/ioBroker-kress/)
